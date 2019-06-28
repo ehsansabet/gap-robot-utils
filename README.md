@@ -10,7 +10,7 @@ Usage
 ```php
 use ehsansabet\GapUtils\InlineCalendar;
 
-$inlineKeyboard = json_encode(InlineCalendar::show());
+$inlineKeyboard = InlineCalendar::show();
 ```
 
 License

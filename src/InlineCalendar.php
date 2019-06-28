@@ -48,18 +48,18 @@ class InlineCalendar {
 
 		$calendar    = [];
 		$calendar[0] = [
-			[ 'text' => $options['prev_label'], 'cb_data' => 'gotoMonth' . $prevMonth ],
+			[ 'text' => $options['prev_label'], 'cb_data' => 'gotoMonth_' . $prevMonth ],
 			[ 'text' => "$monthName ($year)", 'cb_data' => 'activeMonth' ],
-			[ 'text' => $options['next_label'], 'cb_data' => 'gotoMonth' . $nextMonth ]
+			[ 'text' => $options['next_label'], 'cb_data' => 'gotoMonth_' . $nextMonth ]
 		];
 		$calendar[1] = [
-			[ 'text' => 'ش', 'cb_data' => '_' ],
-			[ 'text' => 'ی', 'cb_data' => '_' ],
-			[ 'text' => 'د', 'cb_data' => '_' ],
-			[ 'text' => 'س', 'cb_data' => '_' ],
-			[ 'text' => 'چ', 'cb_data' => '_' ],
-			[ 'text' => 'پ', 'cb_data' => '_' ],
-			[ 'text' => 'ج', 'cb_data' => '_' ],
+			[ 'text' => 'ش', 'cb_data' => 'null' ],
+			[ 'text' => 'ی', 'cb_data' => 'null' ],
+			[ 'text' => 'د', 'cb_data' => 'null' ],
+			[ 'text' => 'س', 'cb_data' => 'null' ],
+			[ 'text' => 'چ', 'cb_data' => 'null' ],
+			[ 'text' => 'پ', 'cb_data' => 'null' ],
+			[ 'text' => 'ج', 'cb_data' => 'null' ],
 		];
 
 		$currentDay = 1;
